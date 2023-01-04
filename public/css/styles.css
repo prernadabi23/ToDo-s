@@ -1,0 +1,99 @@
+html {
+  background-color: #E0D4B1;
+  background-image: -webkit-linear-gradient(65deg, #706A59 50%, #E0D4B1 50%);
+  /* background-image: url("images/todo.jpg"); */
+  /* background-repeat: no-repeat; */
+
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #6A6B6A;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  /* background-color: #A683E3; */
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #6A6B6A;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 250;
+  color: #6A6B6A;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  height: 43px;
+  width: 45px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #6A6B6A;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: #fff;
+  /* color: rgba(0, 0, 0, 0.5); */
+  text-align: center;
+}
