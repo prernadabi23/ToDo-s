@@ -1,9 +1,5 @@
 html {
-  background-color: #E0D4B1;
-  background-image: -webkit-linear-gradient(65deg, #706A59 50%, #E0D4B1 50%);
-  /* background-image: url("images/todo.jpg"); */
-  /* background-repeat: no-repeat; */
-
+  background-image: -webkit-linear-gradient(65deg, #0A2647 50%, #ecf0f1 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -22,7 +18,6 @@ h1 {
 }
 
 #heading {
-  /* background-color: #A683E3; */
   text-align: center;
 }
 
@@ -93,7 +88,6 @@ input[type="text"]:focus {
 }
 
 footer {
-  color: #fff;
-  /* color: rgba(0, 0, 0, 0.5); */
+  color: lightgray;
   text-align: center;
 }
